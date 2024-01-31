@@ -9,9 +9,9 @@ background-color: rgb(58, 57, 57);
 }
 
 header{ 
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: rgb(58, 57, 57);
     box-sizing: border-box;
     height: 17vh;
@@ -60,7 +60,7 @@ img {
 }
 
 .display {
-   align-items: center;
+   /* align-items: center; */
     text-align: center;
     border: 10px solid #ECC30B;
     background-color:rgb(94, 93, 93);
