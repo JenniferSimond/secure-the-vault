@@ -1,0 +1,133 @@
+* {  
+ margin: 0;
+ padding: 0;
+}
+
+body {  
+font-family: 'Lato', sans-serif;
+background-color: rgb(58, 57, 57);
+}
+
+header{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 57, 57);
+    box-sizing: border-box;
+    height: 17vh;
+}
+
+.headerContainer {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 90%;
+    margin: 20px 20px;
+   
+    background-color:#ECC30B;
+}
+
+.container.logo {  
+    align-self: center; 
+    background-color: rgb(58, 57, 57);
+    width: 10%;
+    height: 90%;
+    margin-right: 10px;
+}
+
+.container.title { 
+    width: 90%;
+    height: 90%;
+    background-color: rgb(94, 93, 93);
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;  
+    letter-spacing: 0.1cm;
+    color: #ECC30B; 
+    padding-top: 17px;
+    padding-left: 27%;
+    font-size: 60px;
+}
+
+
+img { 
+    padding-top: 30px ;  
+    padding-left: 50px;
+    width: 65px;
+}
+
+.display {
+   align-items: center;
+    text-align: center;
+    border: 10px solid #ECC30B;
+    background-color:rgb(94, 93, 93);
+    height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    
+}
+
+/* .displayTxtDiv {  
+    align-self: auto;  
+    background-color: honeydew;
+    width: 400px;
+} */
+/* Div wrapped around txt box */
+.displayText { 
+    background-color:rgba(255, 255, 255,0.1); 
+    width: 455px;
+    min-height: 60px;
+    margin-left: 35%;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* border: 5px solid rgb(58, 57, 57); */
+}
+
+p { 
+    text-align: center;
+    padding: 15px 19px; 
+    color: rgb(49, 47, 47);
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+h2 { 
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.1cm;
+    color: #ECC30B;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+span {  
+    color: #ECC30B;
+}
+
+input {
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    background-color: rgba(58, 57, 57,0.9);
+    color: #ECC30B;
+}
+
+button {    
+    width: 90px;
+    height: 29px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #ECC30B ;
+    border-radius: 5px;
+}
+
+
+
+

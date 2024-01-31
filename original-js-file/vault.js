@@ -11,9 +11,7 @@ const vaultCombination = () => { //arrow func
     let num2 = (90 - 80) * 4; //variable using order of operations to assign value of 40
     let num3 = 117 % 78; // variable using modulus to assign value of 39
 
-    /* string interpolation to combine numbers. 
-    Backslash used to escape the - sign so it's treated as character instead of an operator */
-    let fullCombo = `${num1} \-\ ${num2} \-\ ${num3}`; 
+    let fullCombo = `${num1} -${num2} -${num3}`; // string interpolation to combine numbers. 
     return fullCombo;
 };
 
@@ -27,4 +25,3 @@ alert(`${combinationRecipient}  \n ${vaultCombination()}!!!`);
 
    
  console.log(vaultCombination()); // <-- used to check that function is working 
-

@@ -3,9 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,300;0,400;0,700;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Vault Combination</title>
   </head>
   <body>
-    <script src="./vault.js"></script>
+    <header>
+      <div class="headerContainer">
+        <div class="container title">
+          <h1>- - - DARK KINGSMEN - - -</h1>
+        </div>
+        <div class="container logo">
+          <img src="./svg/Layer 1.svg" alt="Spy logo" />
+        </div>
+      </div>
+    </header>
+    <!-- Display area for question/response. -->
+    <div class="display">
+      <h2>MISSION CLASSIFIED</h2>
+      <!-- question/response area -->
+
+      <div class="displayTxt">
+        <p class="displayText">Enter your codename to begin...</p>
+      </div>
+      <!-- Input box Div. -->
+      <input type="text" id="spyInput" />
+      <!--Button Div. -->
+      <div class="button">
+        <button class="btn" onclick="spyFunction()">Submit</button>
+      </div>
+    </div>
+
+    <script src="./spy.js"></script>
   </body>
 </html>
+
+<!-- onclick="spyFunction() -->
